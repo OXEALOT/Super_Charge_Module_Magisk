@@ -1,6 +1,6 @@
 #!/system/bin/sh
 #sleep 25
-sh /system/etc/.nth_fc/SFC.sh
+sh /system/etc/oxe_fc/SFC.sh
 echo 1 > /sys/kernel/fast_charge/force_fast_charge
 sleep 10
 chmod 777 /sys/class/power_supply/*/*
